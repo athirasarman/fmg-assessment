@@ -2,4 +2,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.header-nav {
+  background-color: #FFFFFF;
+}
+
+.post-job-btn {
+  background-color: #187DC1;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=styles.css.map */
