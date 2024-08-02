@@ -11,6 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header>
@@ -22,14 +26,11 @@
       <!--Nav Bar-->
       <nav class="navbar navbar-expand-lg" class="header-nav">
         <!-- Navbar content -->
-        <div class="container-fluid px-lg-5 px-sm-2">
+        <div class="container-fluid px-md-5 px-sm-2">
           <div class="nav-item-wrapper container-fluid">
             <div class="logo-section">
               <a class="navbar-brand" href="#">
-                <img
-                  src="assets/images/LOGO.svg"
-                  alt="logo"
-                />
+                <img src="assets/images/LOGO.svg" alt="logo" />
               </a>
             </div>
             <div class="nav-item-section">
@@ -88,10 +89,28 @@
       </nav>
     </header>
 
+    <main>
+      <section class="search-section  flex-column">
+          <div class="search-wrapper">
+            <p class="text-white search-heading text-center">Find the Latest Jobs in Aviation</p>
+          <p  class="text-white search-sub-heading">Search Jobs | Advertise Vacancies | Discover Skilled Candidates</p>
+          <form class="d-flex flex-column flex-sm-row">
+            <div class="mb-3 ">
+              <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+              <input type="text" class="form-control" placeholder="Job Title" id="jobTitle" aria-describedby="emailHelp">
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3 ">
+              <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+              <input type="text" class="form-control" placeholder="City or Region" id="cityorRegion">
+            </div>
+            <button type="submit" class="btn submit-btn">Search</button>
+          </form>
+          </div>
+      </section>
+    </main>
+    <footer></footer>
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

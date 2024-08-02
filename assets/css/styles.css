@@ -25,4 +25,34 @@ body {
   padding: 0;
 }
 
+.search-section {
+  background-image: url(../images/AJS-Hero-Desktop.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.search-section .search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search-section .search-heading {
+  font-size: 3rem;
+  line-height: 1.25;
+}
+.submit-btn {
+  background-color: #F2624C;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .search-sub-heading {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
