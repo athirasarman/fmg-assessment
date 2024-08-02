@@ -57,13 +57,19 @@ body {
     align-items: center;
 }
 .chips{
-    font-size: 0.75em;
+    font-size: 1em;
     background-color: $white;
-    color:$night;
+    color:$primary-light;
     padding: 8px 12px;
 }
-.chips-wrapper{
-    
+.dropdown-btn{
+    background-color: $night;
+    color: $white;
+    border: none;
+}
+.card-text{
+    color: $white;
+    background-color:$night;
 }
 //Mobile Devices
 @media screen and (max-width:768px){

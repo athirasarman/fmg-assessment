@@ -57,10 +57,21 @@ body {
 }
 
 .chips {
-  font-size: 0.75em;
+  font-size: 1em;
   background-color: #FFFFFF;
-  color: #023E66;
+  color: #1B8DDA;
   padding: 8px 12px;
+}
+
+.dropdown-btn {
+  background-color: #023E66;
+  color: #FFFFFF;
+  border: none;
+}
+
+.card-text {
+  color: #FFFFFF;
+  background-color: #023E66;
 }
 
 @media screen and (max-width: 768px) {
