@@ -67,9 +67,20 @@ body {
     color: $white;
     border: none;
 }
-.card-text{
+.card-content{
     color: $white;
     background-color:$night;
+}
+.number-one-section{
+    background-color: $day;
+}
+    
+
+.latest-job-heading{
+    font-size: 28px;
+    color:$night;
+    font-weight: 100;
+    margin-bottom: 0;
 }
 //Mobile Devices
 @media screen and (max-width:768px){
