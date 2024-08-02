@@ -49,6 +49,20 @@ body {
   color: #FFFFFF;
 }
 
+.latest-jobs-section {
+  background-color: #023E66;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.chips {
+  font-size: 0.75em;
+  background-color: #FFFFFF;
+  color: #023E66;
+  padding: 8px 12px;
+}
+
 @media screen and (max-width: 768px) {
   .search-sub-heading {
     display: none;

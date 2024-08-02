@@ -50,7 +50,21 @@ body {
     background-color: $secondary;
     color: $white;
 }
-
+.latest-jobs-section {
+    background-color: $night;
+    color: $white;
+    justify-content: center;
+    align-items: center;
+}
+.chips{
+    font-size: 0.75em;
+    background-color: $white;
+    color:$night;
+    padding: 8px 12px;
+}
+.chips-wrapper{
+    
+}
 //Mobile Devices
 @media screen and (max-width:768px){
     .search-sub-heading{
