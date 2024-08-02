@@ -16,3 +16,9 @@ body {
     text-align: center;
     font-family: Montserrat, sans-serif;
 }
+.nav-item-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
