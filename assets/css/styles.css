@@ -6,6 +6,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.star-image {
+  color: #1B8DDA;
+}
+
 .post-job-btn {
   background-color: #187DC1;
   color: #FFFFFF;
@@ -23,6 +27,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0;
+}
+
+.nav-item .labels {
+  color: #8D8D8D;
 }
 
 .search-section {

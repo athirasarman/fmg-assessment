@@ -19,72 +19,55 @@
   </head>
   <body>
     <header>
-      <!-- <div class="top-bar d-none d-md-block d-lg-none">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/LOGO.svg" alt="logo" />
-        </a>
-      </div> -->
       <!--Nav Bar-->
-      <nav class="navbar navbar-expand-lg" class="header-nav">
-        <!-- Navbar content -->
-        <div class="container-fluid px-md-5 px-sm-2">
-          <div class="nav-item-wrapper container-fluid">
-            <div class="logo-section">
-              <a class="navbar-brand" href="#">
-                <img src="assets/images/LOGO.svg" alt="logo" />
-              </a>
-            </div>
-            <div class="nav-item-section">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      >Recuiters</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      >Career Advice</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Upload CV</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">My Jobs</a>
-                  </li>
-                  <li>
-                    <button class="btn post-job-btn" type="submit">
-                      Post a Job
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      <nav class="navbar navbar-expand-md header-nav px-md-5 px-sm-2 ">
+        <div class="container-fluid d-flex flex-md-column flex-lg-row justify-content-center align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/LOGO.svg"
+            class="card-img-top"
+            alt="logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-lg-end justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <a
+                  class="nav-link dropdown-toggle labels"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Recuiters</a
+                >
+              </li>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <a
+                  class="nav-link dropdown-toggle labels"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Career Advice</a
+                >
+              </li>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <a class="nav-link labels" href="#">Courses</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <a class="nav-link labels" href="#">Upload CV</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <a class="nav-link " href="#">
+                  <i class="fas fa-solid fa-star star-image"></i> My Jobs</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <button class="btn post-job-btn m-lg-3" type="submit">
+                  Post a Job
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -100,7 +83,7 @@
             Search Jobs | Advertise Vacancies | Discover Skilled Candidates
           </p>
           <form class="d-flex flex-column flex-sm-row">
-            <div class="mb-3 container-fluid">
+            <div class="mb-sm-3 mb-md-0 container-fluid">
               <input
                 type="text"
                 class="form-control"
@@ -109,7 +92,7 @@
                 aria-describedby="emailHelp"
               />
             </div>
-            <div class="mb-3 container-fluid">
+            <div class="mb-sm-3 mb-md-0  container-fluid">
               <input
                 type="text"
                 class="form-control"
@@ -165,7 +148,7 @@
                 id="collapseWidthExample"
               >
                 <div
-                  class="card card-body d-flex card-content flex-row border-0"
+                  class="card card-body d-flex card-content flex-row border-0 gap-3"
                   style="width: 100%"
                 >
                   <div>
@@ -453,17 +436,17 @@
                 <h5>Stay in Touch</h5>
                 
               <ul class="list-unstyled">
-                <li><a href="#" class="text-white text-decoration-none">Contact Details</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Sitemap</a></li>
-                <li><a href="#" class="text-white text-decoration-none">GDPR</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+                <li><a href="#" class="text-white text-decoration-none fs-6">Contact Details</a></li>
+                <li><a href="#" class="text-white text-decoration-none fs-6">Sitemap</a></li>
+                <li><a href="#" class="text-white text-decoration-none fs-6">GDPR</a></li>
+                <li><a href="#" class="text-white text-decoration-none fs-6">Privacy Policy</a></li>
             </ul>
 
              <!-- Social Media Buttons -->
-             <div class="mt-3">
+             <div class="mt-3 container-fluid d-flex justify-content-center align-items-center">
               <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
-              <a href="#" class="text-white mr-2"><i class="fab fa-facebook fa-lg"></i></a>
-              <a href="#" class="text-white mr-2"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="#" class="text-white "><i class="fab fa-facebook fa-lg "></i></a>
+              <a href="#" class="text-white "><i class="fab fa-twitter fa-lg "></i></a>
           </div>
             </div>
         </div>

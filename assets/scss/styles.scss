@@ -6,6 +6,9 @@ body {
 .header-nav {
   background-color: $white;
 }
+.star-image {
+  color: $primary-light;
+}
 .post-job-btn {
   background-color: $primary;
   color: $white;
@@ -22,6 +25,9 @@ body {
   justify-content: space-between;
   padding: 0;
 }
+.nav-item .labels {
+  color: $grey55;
+}
 .search-section {
   background-image: url(../images/AJS-Hero-Desktop.jpg);
   background-size: cover;
@@ -30,71 +36,70 @@ body {
   padding: 80px 0;
   justify-content: center;
   color: $white;
- 
-  .search-wrapper{
+
+  .search-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .search-heading{
+  .search-heading {
     font-size: 3rem;
     line-height: 1.25;
   }
-  .search-form{
+  .search-form {
     // display: flex;
     // flex-direction: ;
   }
 }
-.submit-btn{
-    background-color: $secondary;
-    color: $white;
+.submit-btn {
+  background-color: $secondary;
+  color: $white;
 }
 .latest-jobs-section {
-    background-color: $night;
-    color: $white;
-    justify-content: center;
-    align-items: center;
+  background-color: $night;
+  color: $white;
+  justify-content: center;
+  align-items: center;
 }
-.chips{
-    font-size: 1em;
-    background-color: $white;
-    color:$primary-light;
-    padding: 8px 12px;
+.chips {
+  font-size: 1em;
+  background-color: $white;
+  color: $primary-light;
+  padding: 8px 12px;
 }
-.dropdown-btn{
-    background-color: $night;
-    color: $white;
-    border: none;
+.dropdown-btn {
+  background-color: $night;
+  color: $white;
+  border: none;
 }
-.card-content{
-    color: $white;
-    background-color:$night;
+.card-content {
+  color: $white;
+  background-color: $night;
 }
-.number-one-section{
-    background-color: $day;
+.number-one-section {
+  background-color: $day;
 }
-    
 
-.latest-job-heading{
-    font-size: 28px;
-    color:$night;
-    font-weight: 100;
-    margin-bottom: 0;
+.latest-job-heading {
+  font-size: 28px;
+  color: $night;
+  font-weight: 100;
+  margin-bottom: 0;
 }
-footer{
-    background-color: $night;
+footer {
+  background-color: $night;
 }
-.copyright{
-    background-color: $nightDark;
+.copyright {
+  background-color: $nightDark;
 }
-.image-size{
-    width:80px;
-    height:80px;
+.image-size {
+  width: 80px;
+  height: 80px;
 }
 //Mobile Devices
-@media screen and (max-width:768px){
-    .search-sub-heading{
-        display: none;
-    }
+@media screen and (max-width: 768px) {
+  .search-sub-heading {
+    display: none;
+  }
 }
