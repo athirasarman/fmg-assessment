@@ -110,6 +110,9 @@ footer {
   .search-sub-heading {
     display: none;
   }
+  .search-section {
+    background-image: url("../images/AJS-Hero-Mobile.jpg");
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
