@@ -93,6 +93,9 @@ body {
 }
 footer {
   background-color: $night;
+  a {
+    font-size: 14px;
+  }
 }
 .copyright {
   background-color: $nightDark;
@@ -113,12 +116,33 @@ footer {
   }
 }
 .content-block {
-    .card-img-top{
-        min-height: 263px;
-    }
-    .card-text{
-        font-size: 14px;
-    }
+  .card-body {
+    min-height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-img-top {
+    min-height: 263px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}
+.carousel-inner {
+  height: 300px;
+  img {
+    height: 300px;
+  }
+}
+.cv-tips-btn {
+  background-color: $white;
+  border: 1px solid $primary;
+  color: $primary;
+}
+.upload-btn{
+    color: $white;
+    background-color: $primary;
 }
 //Mobile Devices
 @media screen and (max-width: 768px) {

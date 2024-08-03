@@ -100,6 +100,9 @@ body {
 footer {
   background-color: #023E66;
 }
+footer a {
+  font-size: 14px;
+}
 
 .copyright {
   background-color: #012944;
@@ -122,11 +125,35 @@ footer {
   font-size: 16px;
 }
 
+.content-block .card-body {
+  min-height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .content-block .card-img-top {
   min-height: 263px;
 }
 .content-block .card-text {
   font-size: 14px;
+}
+
+.carousel-inner {
+  height: 300px;
+}
+.carousel-inner img {
+  height: 300px;
+}
+
+.cv-tips-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #187DC1;
+  color: #187DC1;
+}
+
+.upload-btn {
+  color: #FFFFFF;
+  background-color: #187DC1;
 }
 
 @media screen and (max-width: 768px) {
