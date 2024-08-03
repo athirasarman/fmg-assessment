@@ -88,6 +88,10 @@ footer{
 .copyright{
     background-color: $nightDark;
 }
+.image-size{
+    width:80px;
+    height:80px;
+}
 //Mobile Devices
 @media screen and (max-width:768px){
     .search-sub-heading{
