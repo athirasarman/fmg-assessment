@@ -52,6 +52,10 @@ body {
   font-size: 40px;
   line-height: 1.25;
 }
+.search-section .custom-placeholder::placeholder {
+  color: #024E80; /* or any desired color */
+  opacity: 1; /* This is needed to override the default opacity in some browsers */
+}
 .submit-btn {
   background-color: #F2624C;
   color: #FFFFFF;
@@ -106,12 +110,34 @@ footer {
   height: 80px;
 }
 
+.promo-blocks {
+  width: 320px;
+}
+.promo-blocks h5 {
+  font-weight: 600;
+  color: #023E66;
+}
+.promo-blocks .card-text {
+  color: #8D8D8D;
+  font-size: 16px;
+}
+
+.content-block .card-img-top {
+  min-height: 263px;
+}
+.content-block .card-text {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
   .search-sub-heading {
     display: none;
   }
   .search-section {
     background-image: url("../images/AJS-Hero-Mobile.jpg");
+  }
+  .promo-blocks {
+    width: 343px;
   }
 }
 
